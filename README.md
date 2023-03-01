@@ -4,8 +4,8 @@ Projeto para praticar localstorage e tentei integrar um banco de dados
 <h1 align="center">Cadastro de funcionários</h1>
 <p  align='center'> 
  <a href= 'https://www.linkedin.com/in/luan-bortoleto-590490234/'>
- <img alt='Luan Bortoleto [Linkedin]' src='./imagens/iconlink.jpg' width=20px></a>
-  <a href='https://www.instagram.com/luanbortoleto/'><img alt='Luan Bortoleto [Instagram]' src='./imagens/iconluffy.jpg' width=20px></a>
+ <img alt='Luan Bortoleto [Linkedin]' src='./img/iconlink.jpg' width=20px></a>
+  <a href='https://www.instagram.com/luanbortoleto/'><img alt='Luan Bortoleto [Instagram]' src='./img/iconluffy.jpg' width=20px></a>
   </p>
   
   <p align="center"> Este projeto foi feito atraves dos conhecimentos de JS, HTML, CSS.
