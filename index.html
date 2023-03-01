@@ -1,0 +1,99 @@
+<html>
+
+<head>
+    <link rel='stylesheet' type='text/css' href="./style.css">
+    <script src="index.js"></script>
+    <script src="app.js"></script>
+    <title>Cadastro de Funcionário</title>
+</head>
+
+<body>
+    <!-- Cadastro -->
+    <div id="container">
+
+        <div id="login">
+            <img id='img' src='img/[CITYPNG.COM]White User Member Guest Icon PNG Image - 4000x4000.png' id="top">
+
+            <form>
+                <label id='nome' class='texto' for="nome"></label>
+                <input placeholder='Primeiro nome' type="text" id="nome" name="nome"><br><br>
+
+
+                <label id='email' class='texto' for="email"></label>
+                <input placeholder='Digite seu E-mail' type="email" id="email" name="email"><br><br>
+
+                <label id='telefone' class='texto' for="telefone"></label>
+                <input placeholder="Digite seu telefone" type="tel" id="telefone" name="telefone"><br><br>
+
+                <label id='cargo' class='texto' for="cargo"></label>
+                <input placeholder='Digite seu Cargo' type="text" id="cargo" name="cargo">
+
+                <button type="button" id="btn" onclick="salvar()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span> Salvar
+                </button>
+            </form>
+        </div>
+    </div>
+    <!-- Perfil -->
+    <div id="perfil_container" class="perfil">
+        <div id="login">
+            <img id='img' src='img/[CITYPNG.COM]White User Member Guest Icon PNG Image - 4000x4000.png' id="top">
+            <div id="texto_info">Minhas Informações
+            </div>
+            <form id="form_info">
+
+                <label id='txt' class='info_nome' for="nome">Nome </label><br>
+                <label id='txt' class='info_email' for="email">Email </label><br>
+                <label id='txt' class='info_tel' for="telefone">Telefone</label> <br>
+                <label id='txt' class='info_cargo' for="cargo">Cargo</label><br>
+
+                <button name='btn' type="button" id="btn2">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span> Editar
+                </button>
+            </form>
+
+
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var button = document.getElementById('btn');
+                button.addEventListener('click', function() {
+                    var divLogin = document.getElementById('container');
+                    var perfilContainer = document.getElementById('perfil_container');
+                    if (divLogin.style.display === 'none') {
+                        divLogin.style.display = 'flex';
+
+                    } else {
+                        divLogin.style.display = 'none';
+                        perfilContainer.style.display = 'flex';
+                    }
+                });
+
+            });
+
+            document.addEventListener('DOMContentLoaded', function() {
+                var button = document.getElementById('btn2');
+                button.addEventListener('click', function() {
+                    var perfilContainer = document.getElementById('perfil_container');
+                    var container = document.getElementById('container');
+                    if (perfilContainer.style.display === 'none') {
+                        perfilContainer.style.display = 'flex';
+                        container.style.display = 'none';
+
+                    } else {
+                        perfilContainer.style.display = 'none';
+                        container.style.display = 'flex';
+                    }
+                });
+            });
+        </script>
+</body>
+
+</html>
