@@ -1,5 +1,6 @@
-# Cadastro-de-funcion-rio
-Projeto para praticar localstorage e tentei integrar um banco de dados
+# Cadastro de fornecedor
+
+Projeto Cadastro de Fornecedor, integrado com Banco de dados.
 
 <h1 align="center">Cadastro de funcionários</h1>
 <p  align='center'> 
@@ -8,7 +9,7 @@ Projeto para praticar localstorage e tentei integrar um banco de dados
   <a href='https://www.instagram.com/luanbortoleto/'><img alt='Luan Bortoleto [Instagram]' src='./img/iconluffy.jpg' width=20px></a>
   </p>
   
-  <p align="center"> Este projeto foi feito atraves dos conhecimentos de JS, HTML, CSS.
+  <p align="center"> Este projeto foi feito atraves dos conhecimentos de JS, HTML, CSS, NODE.JS, MYSQL.
  </p>
  
  ### Sobre
