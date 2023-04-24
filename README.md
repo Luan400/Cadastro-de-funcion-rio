@@ -1,6 +1,6 @@
-# Cadastro de fornecedor
+# Cadastro de funcionários
 
-Projeto Cadastro de Fornecedor, integrado com Banco de dados.
+Projeto Cadastro de funcionários, integrado com Banco de dados.
 
 <h1 align="center">Cadastro de funcionários</h1>
 <p  align='center'> 
